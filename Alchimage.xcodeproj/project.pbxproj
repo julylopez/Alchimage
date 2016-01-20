@@ -12,10 +12,10 @@
 		7FFA62F01B8808F80080C6FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFA62EF1B8808F80080C6FB /* Images.xcassets */; };
 		7FFA62F31B8808F80080C6FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FFA62F11B8808F80080C6FB /* MainMenu.xib */; };
 		7FFA62FF1B8808F80080C6FB /* AlchimageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA62FE1B8808F80080C6FB /* AlchimageTests.m */; };
-		7FFA630D1B880FBE0080C6FB /* UIElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA63091B880FBE0080C6FB /* UIElements.m */; };
-		7FFA630E1B880FBE0080C6FB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA630B1B880FBE0080C6FB /* RootViewController.m */; };
-		7FFA630F1B880FBE0080C6FB /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FFA630C1B880FBE0080C6FB /* RootViewController.xib */; };
 		7FFA63111B8810070080C6FB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA63101B8810070080C6FB /* AppKit.framework */; };
+		9079A40A1C504EE700560E4D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9079A4081C504EE700560E4D /* RootViewController.m */; };
+		9079A40B1C504EE700560E4D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9079A4091C504EE700560E4D /* RootViewController.xib */; };
+		9079A40E1C504EF400560E4D /* UIElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 9079A40D1C504EF400560E4D /* UIElements.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +39,12 @@
 		7FFA62F81B8808F80080C6FB /* AlchimageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlchimageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFA62FD1B8808F80080C6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FFA62FE1B8808F80080C6FB /* AlchimageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlchimageTests.m; sourceTree = "<group>"; };
-		7FFA63081B880FBE0080C6FB /* UIElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIElements.h; sourceTree = "<group>"; };
-		7FFA63091B880FBE0080C6FB /* UIElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIElements.m; sourceTree = "<group>"; };
-		7FFA630A1B880FBE0080C6FB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		7FFA630B1B880FBE0080C6FB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		7FFA630C1B880FBE0080C6FB /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		7FFA63101B8810070080C6FB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9079A4071C504EE700560E4D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Controllers/RootViewController.h; sourceTree = "<group>"; };
+		9079A4081C504EE700560E4D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Controllers/RootViewController.m; sourceTree = "<group>"; };
+		9079A4091C504EE700560E4D /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = Controllers/RootViewController.xib; sourceTree = "<group>"; };
+		9079A40C1C504EF400560E4D /* UIElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIElements.h; path = View/UIElements.h; sourceTree = "<group>"; };
+		9079A40D1C504EF400560E4D /* UIElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIElements.m; path = View/UIElements.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +90,12 @@
 			children = (
 				7FFA62EA1B8808F80080C6FB /* AppDelegate.h */,
 				7FFA62EB1B8808F80080C6FB /* AppDelegate.m */,
-				7FFA63081B880FBE0080C6FB /* UIElements.h */,
-				7FFA63091B880FBE0080C6FB /* UIElements.m */,
-				7FFA630A1B880FBE0080C6FB /* RootViewController.h */,
-				7FFA630B1B880FBE0080C6FB /* RootViewController.m */,
-				7FFA630C1B880FBE0080C6FB /* RootViewController.xib */,
 				7FFA62EF1B8808F80080C6FB /* Images.xcassets */,
+				9079A4071C504EE700560E4D /* RootViewController.h */,
+				9079A4081C504EE700560E4D /* RootViewController.m */,
+				9079A4091C504EE700560E4D /* RootViewController.xib */,
+				9079A40C1C504EF400560E4D /* UIElements.h */,
+				9079A40D1C504EF400560E4D /* UIElements.m */,
 				7FFA62F11B8808F80080C6FB /* MainMenu.xib */,
 				7FFA62E81B8808F80080C6FB /* Supporting Files */,
 			);
@@ -210,7 +210,7 @@
 			files = (
 				7FFA62F01B8808F80080C6FB /* Images.xcassets in Resources */,
 				7FFA62F31B8808F80080C6FB /* MainMenu.xib in Resources */,
-				7FFA630F1B880FBE0080C6FB /* RootViewController.xib in Resources */,
+				9079A40B1C504EE700560E4D /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,9 +229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FFA62EE1B8808F80080C6FB /* main.m in Sources */,
-				7FFA630D1B880FBE0080C6FB /* UIElements.m in Sources */,
-				7FFA630E1B880FBE0080C6FB /* RootViewController.m in Sources */,
 				7FFA62EC1B8808F80080C6FB /* AppDelegate.m in Sources */,
+				9079A40E1C504EF400560E4D /* UIElements.m in Sources */,
+				9079A40A1C504EE700560E4D /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
