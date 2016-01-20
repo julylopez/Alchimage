@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FFA62EC1B8808F80080C6FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA62EB1B8808F80080C6FB /* AppDelegate.m */; };
+		7FFA62EE1B8808F80080C6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA62ED1B8808F80080C6FB /* main.m */; };
+		7FFA62F01B8808F80080C6FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFA62EF1B8808F80080C6FB /* Images.xcassets */; };
+		7FFA62F31B8808F80080C6FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FFA62F11B8808F80080C6FB /* MainMenu.xib */; };
+		7FFA62FF1B8808F80080C6FB /* AlchimageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA62FE1B8808F80080C6FB /* AlchimageTests.m */; };
+		7FFA630D1B880FBE0080C6FB /* UIElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA63091B880FBE0080C6FB /* UIElements.m */; };
+		7FFA630E1B880FBE0080C6FB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA630B1B880FBE0080C6FB /* RootViewController.m */; };
+		7FFA630F1B880FBE0080C6FB /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FFA630C1B880FBE0080C6FB /* RootViewController.xib */; };
+		7FFA63111B8810070080C6FB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFA63101B8810070080C6FB /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FFA62F91B8808F80080C6FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FFA62DD1B8808F80080C6FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FFA62E41B8808F80080C6FB;
+			remoteInfo = Alchimage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FFA62E51B8808F80080C6FB /* Alchimage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alchimage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFA62E91B8808F80080C6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFA62EA1B8808F80080C6FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FFA62EB1B8808F80080C6FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FFA62ED1B8808F80080C6FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FFA62EF1B8808F80080C6FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7FFA62F21B8808F80080C6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7FFA62F81B8808F80080C6FB /* AlchimageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlchimageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFA62FD1B8808F80080C6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFA62FE1B8808F80080C6FB /* AlchimageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlchimageTests.m; sourceTree = "<group>"; };
+		7FFA63081B880FBE0080C6FB /* UIElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIElements.h; sourceTree = "<group>"; };
+		7FFA63091B880FBE0080C6FB /* UIElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIElements.m; sourceTree = "<group>"; };
+		7FFA630A1B880FBE0080C6FB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7FFA630B1B880FBE0080C6FB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7FFA630C1B880FBE0080C6FB /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		7FFA63101B8810070080C6FB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FFA62E21B8808F80080C6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFA63111B8810070080C6FB /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFA62F51B8808F80080C6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FFA62DC1B8808F80080C6FB = {
+			isa = PBXGroup;
+			children = (
+				7FFA63101B8810070080C6FB /* AppKit.framework */,
+				7FFA62E71B8808F80080C6FB /* Alchimage */,
+				7FFA62FB1B8808F80080C6FB /* AlchimageTests */,
+				7FFA62E61B8808F80080C6FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FFA62E61B8808F80080C6FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FFA62E51B8808F80080C6FB /* Alchimage.app */,
+				7FFA62F81B8808F80080C6FB /* AlchimageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FFA62E71B8808F80080C6FB /* Alchimage */ = {
+			isa = PBXGroup;
+			children = (
+				7FFA62EA1B8808F80080C6FB /* AppDelegate.h */,
+				7FFA62EB1B8808F80080C6FB /* AppDelegate.m */,
+				7FFA63081B880FBE0080C6FB /* UIElements.h */,
+				7FFA63091B880FBE0080C6FB /* UIElements.m */,
+				7FFA630A1B880FBE0080C6FB /* RootViewController.h */,
+				7FFA630B1B880FBE0080C6FB /* RootViewController.m */,
+				7FFA630C1B880FBE0080C6FB /* RootViewController.xib */,
+				7FFA62EF1B8808F80080C6FB /* Images.xcassets */,
+				7FFA62F11B8808F80080C6FB /* MainMenu.xib */,
+				7FFA62E81B8808F80080C6FB /* Supporting Files */,
+			);
+			path = Alchimage;
+			sourceTree = "<group>";
+		};
+		7FFA62E81B8808F80080C6FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FFA62E91B8808F80080C6FB /* Info.plist */,
+				7FFA62ED1B8808F80080C6FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FFA62FB1B8808F80080C6FB /* AlchimageTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FFA62FE1B8808F80080C6FB /* AlchimageTests.m */,
+				7FFA62FC1B8808F80080C6FB /* Supporting Files */,
+			);
+			path = AlchimageTests;
+			sourceTree = "<group>";
+		};
+		7FFA62FC1B8808F80080C6FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FFA62FD1B8808F80080C6FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FFA62E41B8808F80080C6FB /* Alchimage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFA63021B8808F80080C6FB /* Build configuration list for PBXNativeTarget "Alchimage" */;
+			buildPhases = (
+				7FFA62E11B8808F80080C6FB /* Sources */,
+				7FFA62E21B8808F80080C6FB /* Frameworks */,
+				7FFA62E31B8808F80080C6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alchimage;
+			productName = Alchimage;
+			productReference = 7FFA62E51B8808F80080C6FB /* Alchimage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FFA62F71B8808F80080C6FB /* AlchimageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFA63051B8808F80080C6FB /* Build configuration list for PBXNativeTarget "AlchimageTests" */;
+			buildPhases = (
+				7FFA62F41B8808F80080C6FB /* Sources */,
+				7FFA62F51B8808F80080C6FB /* Frameworks */,
+				7FFA62F61B8808F80080C6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FFA62FA1B8808F80080C6FB /* PBXTargetDependency */,
+			);
+			name = AlchimageTests;
+			productName = AlchimageTests;
+			productReference = 7FFA62F81B8808F80080C6FB /* AlchimageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FFA62DD1B8808F80080C6FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Lopez, Julio";
+				TargetAttributes = {
+					7FFA62E41B8808F80080C6FB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7FFA62F71B8808F80080C6FB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7FFA62E41B8808F80080C6FB;
+					};
+				};
+			};
+			buildConfigurationList = 7FFA62E01B8808F80080C6FB /* Build configuration list for PBXProject "Alchimage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FFA62DC1B8808F80080C6FB;
+			productRefGroup = 7FFA62E61B8808F80080C6FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FFA62E41B8808F80080C6FB /* Alchimage */,
+				7FFA62F71B8808F80080C6FB /* AlchimageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FFA62E31B8808F80080C6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFA62F01B8808F80080C6FB /* Images.xcassets in Resources */,
+				7FFA62F31B8808F80080C6FB /* MainMenu.xib in Resources */,
+				7FFA630F1B880FBE0080C6FB /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFA62F61B8808F80080C6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FFA62E11B8808F80080C6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFA62EE1B8808F80080C6FB /* main.m in Sources */,
+				7FFA630D1B880FBE0080C6FB /* UIElements.m in Sources */,
+				7FFA630E1B880FBE0080C6FB /* RootViewController.m in Sources */,
+				7FFA62EC1B8808F80080C6FB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFA62F41B8808F80080C6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFA62FF1B8808F80080C6FB /* AlchimageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FFA62FA1B8808F80080C6FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FFA62E41B8808F80080C6FB /* Alchimage */;
+			targetProxy = 7FFA62F91B8808F80080C6FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FFA62F11B8808F80080C6FB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFA62F21B8808F80080C6FB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FFA63001B8808F80080C6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FFA63011B8808F80080C6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FFA63031B8808F80080C6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Alchimage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FFA63041B8808F80080C6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Alchimage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FFA63061B8808F80080C6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlchimageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alchimage.app/Contents/MacOS/Alchimage";
+			};
+			name = Debug;
+		};
+		7FFA63071B8808F80080C6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlchimageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alchimage.app/Contents/MacOS/Alchimage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FFA62E01B8808F80080C6FB /* Build configuration list for PBXProject "Alchimage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFA63001B8808F80080C6FB /* Debug */,
+				7FFA63011B8808F80080C6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFA63021B8808F80080C6FB /* Build configuration list for PBXNativeTarget "Alchimage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFA63031B8808F80080C6FB /* Debug */,
+				7FFA63041B8808F80080C6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFA63051B8808F80080C6FB /* Build configuration list for PBXNativeTarget "AlchimageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFA63061B8808F80080C6FB /* Debug */,
+				7FFA63071B8808F80080C6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FFA62DD1B8808F80080C6FB /* Project object */;
+}
